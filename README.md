@@ -115,14 +115,14 @@ Create the file sitemap.xml to the src folder and create the text:
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://sad-clarke-31f3c6.netlify.com</loc>
-      <lastmod>2019-07-03</lastmod>
+      <loc>localhost:4200</loc>
+      <lastmod>2019-07-23</lastmod>
       <changefreq>always</changefreq>
       <priority>1.0</priority>
    </url>
 </urlset>
 ```
-Substitute https://sad-clarke-31f3c6.netlify.com for the site URL.
+Substitute localhost:4200 for the site URL.
 
 Modify angular.json and add "src/robots.txt" and "src/sitemap.xml" in tha assets,
 
@@ -138,10 +138,10 @@ Modify angular.json and add "src/robots.txt" and "src/sitemap.xml" in tha assets
 Add the meta data in the ```<head>``` section in the intex.html file in the src folder:
 
 ```
-  <link rel="canonical" href="https://sad-clarke-31f3c6.netlify.com" />
+  <link rel="canonical" href="localhost:4200" />
   <meta name="description" content="This is a meta description sample. We can add up to 160 characters.">
 ```
-Substitute https://sad-clarke-31f3c6.netlify.com for the site URL.
+Substitute localhost:4200 for the site URL.
 
 Install the packages needed for Bulma.
 
